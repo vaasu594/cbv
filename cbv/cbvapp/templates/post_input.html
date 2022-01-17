@@ -1,0 +1,11 @@
+<html>
+<title>calculation</title>
+<body bgcolor="#ooffff">
+    <form action="./add" method="post">
+        {% csrf_token %}
+        Enter fno:<input type="text" name='f'>
+        Enter sno:<input type="text" name='s'>
+        <input type="submit" value="add">
+    </form>
+</body>
+</html>
